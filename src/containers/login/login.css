@@ -1,0 +1,67 @@
+.container-login{
+    height: 1000px;
+    width: 100%;
+    background-color: #e0bb17;
+}
+.image{
+    margin: auto;
+    width: 100%;
+    height: 400px;
+    margin-top: -50px;
+    object-fit: cover;
+}
+.image-div{
+    margin: auto;
+    width: 40%;
+    height: 300px;
+}
+h1{
+    text-align: center;
+}
+.line-left,.line-rigth{
+    background-color: black;
+    height: 2px;
+    width: 100px;
+}
+.title-login{
+    width: 40%;
+    margin: auto;
+    position: relative;
+}
+.line-left{
+    top: 15px;
+    position: absolute;
+}
+.line-rigth{
+    top: 15px;
+    position: absolute;
+    right: 0px;
+}
+.message-info{
+    text-align: center;
+}
+.buttons{
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    margin: auto;
+    height: 100px;
+    width: 30%;
+
+}
+.button-login{
+    padding: 10px 0px 0px 36px;
+    border-radius: 20px;
+    width: 86px;
+    border: solid 2px black;
+    height: 26px;
+}
+.button-shop{
+    padding: 10px 0px 0px 36px;
+    border-radius: 20px;
+    width: 86px;
+    border: solid 2px black;
+    height: 26px;
+}
+
+

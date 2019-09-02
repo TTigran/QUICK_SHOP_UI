@@ -1,0 +1,47 @@
+.home{
+    height: 500px;
+}
+.horizontal{
+    width: 70%;
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+}
+.right-mrnu{
+
+    float: right;
+    width:10%;
+
+}
+.car-home{
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+}
+.car-home-1{
+    width: 70%;
+}
+.home-car{
+    padding: 5px;
+    margin-left: 100px;
+    text-align: center;
+    color: white;
+    height: auto;
+    width: 200px;
+}
+.right-mrnu-item{
+    font-size: 12px;
+    text-align: right;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 18px;
+    color:black;
+    border-radius: 20px;
+    margin-left: -100px;
+}
+.activ{
+    color: white;
+    text-align: center;
+    background-color: black;
+}
