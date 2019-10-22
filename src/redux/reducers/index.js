@@ -8,6 +8,8 @@ const initialState = {
 
 const rootReducer = (state = initialState, action) => {
     switch(action.type){
+        case types.LOGIN_POST_REQUEST:
+        case types.LOGIN_POST_COMPLETE:
         case types.ADD_PROFILE_REQUEST:
         case types.ADD_PROFILE_COMPLETE:
         case types.UPDATE_PROFILE_REQUEST:

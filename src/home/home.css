@@ -45,3 +45,1071 @@
     text-align: center;
     background-color: black;
 }
+h1{
+    color: red;
+}
+
+
+
+body {
+    position: relative;
+    display:block;
+    margin: 0px;
+}
+
+loginForm {
+    position: relative;
+    clear: both;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.login_top{
+
+}
+#border {
+    position:relative;
+    clear:both;
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    position:relative;
+    clear:both;
+    width:100%;
+    height: calc(100% - 20px);
+    float:left;
+}
+
+#top {
+    margin: 0px;
+    position:relative;
+    clear:both;
+}
+
+#logo {
+    position: relative;
+    float: left;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    margin-left: -100px;
+}
+.langFlag{
+    width: 80px;
+    height: 30px;
+}
+
+#login_top {
+    position:relative;
+    clear:both;
+    height: 140px;
+    width: 100%;
+}
+
+#login_main {
+    position:relative;
+    clear:both;
+    float:left;
+    width: 100%;
+}
+
+#login_bottom {
+    position: relative;
+    clear: both;
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+a:active {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+input[type=checkbox] {
+    position:relative;
+    clear:both;
+    width: 10%;
+    height: 32px;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-left: 11%;
+    margin-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.masterdatainput {
+    width: 100% !important;
+    margin-left: 0% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+}
+
+input[type=text], input[type=password], input[type=number], input[type=email], input[type=datetime-local], input[type=date], select, textarea {
+    position:relative;
+    clear:both;
+    width: 70%;
+    height: 32px;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-left: 11%;
+    margin-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+textarea {
+    font-family: Arial;
+    height: unset;
+}
+
+input[type=file] {
+    font-size: 1.4em;
+}
+
+.clearFileBtn {
+    font-size: 1.25em;
+}
+
+input#username {
+    position:relative;
+    clear:both;
+    width: 70%;
+    height: 32px;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-left: 11%;
+    margin-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 15px;
+}
+
+input#newUserName {
+    margin-bottom: 6%;
+}
+
+input#password {
+    position:relative;
+    clear:both;
+    width: 70%;
+    height: 32px;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-left: 11%;
+    margin-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 15px;
+}
+
+input#acceptAGBFlag {
+    position:relative;
+    clear:both;
+    margin-left: 11%;
+    margin-top: calc(4% + 4px);
+    padding-left: 2%;
+}
+
+label {
+    position:relative;
+    float:left;
+    width: 70%;
+    margin-top: 5%;
+    padding-right: 2%;
+}
+
+label#acceptAGBFlagLbl {
+    position:relative;
+    float:left;
+    width: 70%;
+    margin-top: 4%;
+    padding-right: 2%;
+}
+
+.buttonArchive {
+    color: #ffffff;
+    border: solid 1px #b43c00;
+    background: #d54b00;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb400', endColorstr='#d54b00');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb400), to(#d54b00));
+    background-image: -webkit-linear-gradient(top, #ffb400 0%, #d54b00 100%);
+    background-image: -moz-linear-gradient(top,  #ffb400 0%, #d54b00 100%);
+    background-image: -ms-linear-gradient(top, #ffb400 0%, #d54b00 100%);
+    background-image: -o-linear-gradient(top, #ffb400 0%, #d54b00 100%);
+    background-image: linear-gradient(to bottom, #ffb400 0%, #d54b00 100%);
+    -webkit-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+}
+
+.button {
+    position:relative;
+    clear:both;
+    /*	width: 90%;*/
+    width: 74%;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    /*	margin-left: 3%;*/
+    margin-left: 11%;
+    margin-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.button:hover {
+    text-decoration: none;
+}
+.button:active {
+    position: relative;
+    top: 1px;
+}
+
+.buttonColor {
+    color: #ffffff;
+    border: solid 0px #00161E;
+    border-radius: 15px;
+    background: #00161E;
+    /*background: #d54b00;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb400', endColorstr='#d54b00');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb400), to(#d54b00));
+    background-image: -webkit-linear-gradient(top, #ffb400 0%, #d54b00 100%);
+    background-image: -moz-linear-gradient(top,  #ffb400 0%, #d54b00 100%);
+    background-image: -ms-linear-gradient(top, #ffb400 0%, #d54b00 100%);
+    background-image: -o-linear-gradient(top, #ffb400 0%, #d54b00 100%);
+    background-image: linear-gradient(to bottom, #ffb400 0%, #d54b00 100%);
+    -webkit-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);*/
+}
+
+.buttonColorXLive {
+    color: #ffffff;
+    border: solid 1px #b43c00;
+    background: #d54b00;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb400', endColorstr='#d54b00');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb400), to(#d54b00));
+    background-image: -webkit-linear-gradient(top, #ffb400 0%, #d54b00 100%);
+    background-image: -moz-linear-gradient(top,  #ffb400 0%, #d54b00 100%);
+    background-image: -ms-linear-gradient(top, #ffb400 0%, #d54b00 100%);
+    background-image: -o-linear-gradient(top, #ffb400 0%, #d54b00 100%);
+    background-image: linear-gradient(to bottom, #ffb400 0%, #d54b00 100%);
+    -webkit-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+}
+
+.buttonColorSports {
+    color: #ffffff;
+    border: solid 1px #163a62;
+    background: #163a62;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#2561a4', endColorstr='#163a62');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2561a4), to(#163a62));
+    background-image: -webkit-linear-gradient(top, #2561a4 0%, #163a62 100%);
+    background-image: -moz-linear-gradient(top,  #2561a4 0%, #163a62 100%);
+    background-image: -ms-linear-gradient(top, #2561a4 0%, #163a62 100%);
+    background-image: -o-linear-gradient(top, #2561a4 0%, #163a62 100%);
+    background-image: linear-gradient(to bottom, #2561a4 0%, #163a62 100%);
+    -webkit-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+}
+
+.buttonColorShop {
+    color: #ffffff;
+    border: solid 1px #565656;
+    background: #565656;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#c3c3c3', endColorstr='#565656');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#c3c3c3), to(#565656));
+    background-image: -webkit-linear-gradient(top, #c3c3c3 0%, #565656 100%);
+    background-image: -moz-linear-gradient(top,  #c3c3c3 0%, #565656 100%);
+    background-image: -ms-linear-gradient(top, #c3c3c3 0%, #565656 100%);
+    background-image: -o-linear-gradient(top, #c3c3c3 0%, #565656 100%);
+    background-image: linear-gradient(to bottom, #c3c3c3 0%, #565656 100%);
+    -webkit-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+}
+
+.buttonColorGuest {
+    color: #ffffff;
+    border: solid 1px #2f2f2f;
+    background: #2f2f2f;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#969595', endColorstr='#2f2f2f');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#969595), to(#2f2f2f));
+    background-image: -webkit-linear-gradient(top, #969595 0%, #2f2f2f 100%);
+    background-image: -moz-linear-gradient(top,  #969595 0%, #2f2f2f 100%);
+    background-image: -ms-linear-gradient(top, #969595 0%, #2f2f2f 100%);
+    background-image: -o-linear-gradient(top, #969595 0%, #2f2f2f 100%);
+    background-image: linear-gradient(to bottom, #969595 0%, #2f2f2f 100%);
+    -webkit-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+}
+
+.buttonColorGamesThe {
+    color: #ffffff;
+    border: solid 1px #000000;
+    background: #000000;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#404040', endColorstr='#000000');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#404040), to(#000000));
+    background-image: -webkit-linear-gradient(top, #404040 0%, #000000 100%);
+    background-image: -moz-linear-gradient(top,  #404040 0%, #000000 100%);
+    background-image: -ms-linear-gradient(top, #404040 0%, #000000 100%);
+    background-image: -o-linear-gradient(top, #404040 0%, #000000 100%);
+    background-image: linear-gradient(to bottom, #404040 0%, #000000 100%);
+    -webkit-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+}
+
+.buttonColorGamesPlatinGames {
+    color: #ffffff;
+    border: solid 1px #000000;
+    background: #000000;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#404040', endColorstr='#000000');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#404040), to(#000000));
+    background-image: -webkit-linear-gradient(top, #404040 0%, #000000 100%);
+    background-image: -moz-linear-gradient(top,  #404040 0%, #000000 100%);
+    background-image: -ms-linear-gradient(top, #404040 0%, #000000 100%);
+    background-image: -o-linear-gradient(top, #404040 0%, #000000 100%);
+    background-image: linear-gradient(to bottom, #404040 0%, #000000 100%);
+    -webkit-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+}
+
+.buttonColorGreen {
+    color: #ffffff;
+    border: solid 1px #7a9316;
+    background: #7a9316;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#b5c628', endColorstr='#7a9316');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#b5c628), to(#7a9316));
+    background-image: -webkit-linear-gradient(top, #b5c628 0%, #7a9316 100%);
+    background-image: -moz-linear-gradient(top,  #b5c628 0%, #7a9316 100%);
+    background-image: -ms-linear-gradient(top, #b5c628 0%, #7a9316 100%);
+    background-image: -o-linear-gradient(top, #b5c628 0%, #7a9316 100%);
+    background-image: linear-gradient(to bottom, #b5c628 0%, #7a9316 100%);
+    -webkit-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+}
+
+.buttonColorRed {
+    color: #ffffff;
+    border: solid 1px #b40000;
+    background: #b40000;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f93939', endColorstr='#b40000');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f93939), to(#b40000));
+    background-image: -webkit-linear-gradient(top, #f93939 0%, #b40000 100%);
+    background-image: -moz-linear-gradient(top,  #f93939 0%, #b40000 100%);
+    background-image: -ms-linear-gradient(top, #f93939 0%, #b40000 100%);
+    background-image: -o-linear-gradient(top, #f93939 0%, #b40000 100%);
+    background-image: linear-gradient(to bottom, #f93939 0%, #b40000 100%);
+    -webkit-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+}
+
+.buttonColorOrange {
+    color: #ffffff;
+    border: solid 1px #b43c00;
+    background: #d54b00;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb400', endColorstr='#d54b00');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb400), to(#d54b00));
+    background-image: -webkit-linear-gradient(top, #ffb400 0%, #d54b00 100%);
+    background-image: -moz-linear-gradient(top,  #ffb400 0%, #d54b00 100%);
+    background-image: -ms-linear-gradient(top, #ffb400 0%, #d54b00 100%);
+    background-image: -o-linear-gradient(top, #ffb400 0%, #d54b00 100%);
+    background-image: linear-gradient(to bottom, #ffb400 0%, #d54b00 100%);
+    -webkit-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+}
+
+.buttonColorBlue {
+    width: 69.5%;
+    color: #ffffff;
+    border: solid 1px #112a46;
+    background: #112a46;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#2072c0', endColorstr='#112a46');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2072c0), to(#112a46));
+    background-image: -webkit-linear-gradient(top, #2072c0 0%, #112a46 100%);
+    background-image: -moz-linear-gradient(top,  #2072c0 0%, #112a46 100%);
+    background-image: -ms-linear-gradient(top, #2072c0 0%, #112a46 100%);
+    background-image: -o-linear-gradient(top, #2072c0 0%, #112a46 100%);
+    background-image: linear-gradient(to bottom, #2072c0 0%, #112a46 100%);
+    -webkit-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+    box-shadow: 2px 3px 0 #000000, 7px 8px 10px rgba(0,0,0,0.3);
+}
+
+#header {
+    position:relative;
+    clear:both;
+    height: 140px;
+    width: 100%;
+}
+
+#userinfo {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+div#username {
+    position: relative;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#logout {
+    position: relative;
+    float: right;
+    font-size: 10px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+#logout img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+#back {
+    position: relative;
+    float: right;
+    font-size: 10px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+#back img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+#accountBalance {
+    position: relative;
+    clear: both;
+    color: #f9d923;
+    padding-left: 10px;
+}
+
+#webshopBalance {
+    position: relative;
+    clear: both;
+    color: #f9d923;
+    padding-left: 10px;
+}
+
+#appButtons {
+    border: 0px solid red;
+    position: relative;
+    clear: both;
+    /*	width: 100%;*/
+    width: calc(100% - 20px);
+    margin-left: 10px;
+}
+
+#xliveMobileButton {
+    position:relative;
+    float:left;
+    width: 100%;
+    height: 100%;
+
+
+    /*background-image: url("/m/img/xlivemobile.png");*/
+
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#sportsMobileButton {
+    position:relative;
+    float:left;
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+    padding-top: 5px;
+}
+
+#gamesMobileButton {
+    position:relative;
+    float:left;
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+    padding-top: 5px;
+}
+
+#ticketListMobileButton {
+    position:relative;
+    float:left;
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+    padding-top: 5px;
+}
+
+#appButton {
+    position: relative;
+    float: left;
+}
+
+#footer {
+    position: relative;
+    clear: both;
+    text-align: center;
+    width: 100%;
+    margin-top: 3%;
+    float:left;
+}
+
+.langFlag {
+    float: left;
+    margin-top: 4px;
+    width: 50px;
+    height: 20px;
+
+}
+.select-lenguage{
+
+
+    margin-top: 20px;
+}
+
+
+nput#startAmountUser {
+    position:relative;
+    clear:both;
+    width: 70%;
+    height: 32px;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-left: 11%;
+    margin-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input#searchValue {
+    position:relative;
+    clear:both;
+    width: 45%;
+    height: 37px;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-left: 13%;
+    margin-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input#creditAmount {
+    position:relative;
+    clear:both;
+    width: 90%;
+    height: 37px;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-left: 3%;
+    margin-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dimmer {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #282828;
+    background-color: black;
+    margin-bottom: -3px;
+    /* for IE */
+    filter:alpha(opacity=0.4);
+    /* CSS3 standard */
+    opacity:0.4;
+    z-index: 1000;
+}
+
+#wizard {
+    position:relative;
+    float:left;
+    clear:both;
+    width: 100%;
+    margin-bottom: 4%;
+    overflow: hidden;
+}
+
+#wizardResponse {
+    position:relative;
+    float:left;
+    clear:both;
+    width: 100%;
+}
+
+.wizardResponseForm {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.adminForm {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+#shopMobileButton {
+    position:relative;
+    float:left;
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+    padding-top: 5px;
+}
+
+.adminButton {
+    position:relative;
+    clear:both;
+    float:left;
+    /*	width: 90%;*/
+    width: 74%;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    /*	margin-left: 3%;*/
+    margin-left: 11%;
+    margin-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.adminButton:hover {
+    text-decoration: none;
+}
+.adminButton:active {
+    position: relative;
+    top: 1px;
+}
+
+#bookWebshopDec {
+    width: 42%;
+    clear: none;
+    float: left;
+    margin-left: 2%;
+}
+
+#bookWebshopInc {
+    width: 41.5%;
+    clear: none;
+    float: left;
+    margin-left: 3%;
+}
+
+.adminButton div {
+    /*margin-top: 7px;*/
+}
+
+.adminButton div.smallButtonLabel {
+    font-size: 15px;
+    margin-top: 11px;
+}
+
+.smallMargin {
+    margin-top: 2%;
+}
+
+.textField {
+    position:relative;
+    float:left;
+}
+
+.adminLabel {
+    position:relative;
+    float:left;
+    width: 100%;
+    margin-left: 3%;
+}
+
+.largeText {
+    font-size: 14pt;
+}
+
+#searchButton {
+    width: 19%;
+    clear: none;
+    float: left;
+    margin-left: 1%;
+}
+
+#lockedLabel {
+    position: relative;
+    float: left;
+    height: 22px;
+    margin-top: 2%;
+    margin-left: 2%;
+    color: #b40000;
+    padding-top: 20px;
+}
+
+#unlockedLabel {
+    position: relative;
+    float: left;
+    height: 22px;
+    margin-top: 2%;
+    margin-left: 2%;
+    color: #7a9316;
+    padding-top: 20px;
+}
+
+.userReadOnly, .userLock {
+    position: relative;
+    float: left;
+    width: 80%;
+}
+
+input#nickName {
+    position:relative;
+    float:left;
+    width: 50%;
+    height: 37px;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-left: 3%;
+    margin-top: 0%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#editNicknameButton, #saveNicknameButton, #editPasswordButton {
+    min-width: 40px;
+    width: 5%;
+    clear: none;
+    float: right;
+    margin-top: 0%;
+    margin-right: 3%;
+    margin-left: 0%;
+}
+
+#editPasswordButton {
+    position: relative;
+    margin-top: 2%;
+}
+
+#cancelPasswordButton, #savePasswordButton {
+    margin-top: 2%;
+}
+
+.checkButton, .xButton {
+    min-width: 40px;
+    width: 5%;
+    clear: none;
+    float: right;
+    margin-top: 0%;
+    margin-right: 3%;
+    margin-left: 0%;
+}
+
+input.payoutPin {
+    position:relative;
+    float:left;
+    width: 50%;
+    height: 37px;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-left: 3%;
+    margin-top: 0%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.payoff {
+    margin-left: 0%;
+    padding-left: 0.5%;
+    width: 97%;
+}
+
+#cancelPayout {
+    margin-right: 5px;
+}
+.dialog {
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 1000;
+}
+
+.dialogHead {
+    position:relative;
+    float:left;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.dialogHeadLeft {
+    position:relative;
+    float:left;
+    height: 40px;
+    width: 80%;
+}
+
+.dialogHeadText {
+    margin-left: 3%;
+    margin-top: 8px;
+}
+
+.dialogHeadRight {
+    position:relative;
+    float:right;
+    height: 40px;
+    width: 10%;
+}
+
+.marginLeftRight {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.dialogHeadLeftNew {
+    position:relative;
+    float:left;
+    height: 40px;
+    width: 40%;
+}
+.dialogHeadRightNew {
+    position:relative;
+    float:right;
+    height: 40px;
+    width: 55%;
+}
+
+.dialogHeadRightNewArchiveBtn {
+    line-height: 2.25em;
+    float: right;
+    display: inline-block;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 0%;
+    margin-right: 5%;
+    margin-left: 0%;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.dialogHeadRightNewArchiveSpan {
+    padding: 5px;
+}
+
+.center-span {
+    line-height: 40px;
+}
+
+.dialogBody {
+    position:relative;
+    float:left;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.language {
+    margin-left: 1%;
+}
+.language a img {
+    margin-right: 1%;
+}
+
+#languageSelection {
+    position: relative;
+    float: right;
+    font-size: 10px;
+    cursor: pointer;
+    padding-top: 10px;
+    margin-right: 30px;
+}
+
+#languageSelection img {
+    border: 2px solid white;
+}
+
+/*.msgBox {*/
+/*    background-color: #282828;*/
+/*    padding-bottom: 30px;*/
+/*}*/
+
+.msgBoxMsg {
+    position: relative;
+    float: left;
+    min-height: 50px;
+    width: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#msgConfirm, #msgClose {
+    width: 41%;
+}
+
+#customInfo {
+    display:none;
+}
+
+div#spinner {
+    height: 100%;
+    width: 100%;
+    position: relative
+}
+div#spinner img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.table {
+    width: 100%;
+    border-spacing: 0;
+    /*    padding-left: 10px;
+           padding-right: 10px;*/
+}
+
+.table thead {
+    background-color: black;
+    color: white;
+}
+
+.table thead th {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.table tbody td {
+    border-bottom: 1px solid grey;
+}
+
+.light_form {
+    background-color: #F2F2F2;
+}
+
+.dark_form {
+    background-color: rgba(51, 51, 51, 0.2);
+}
+
+.table tbody .accountStatementRow td {
+    border-bottom: 1px solid #333e54;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.accountStatementRow td span {
+    vertical-align: 12px;
+}
+
+
+.TicketStatusOpen, .TicketStatusOPEN {
+    background-color: rgb(249, 217, 35);;
+    color: black;
+}
+.TicketStatusLost, .TicketStatusLOST {
+    background-color: rgb(222, 76, 96);;
+}
+.TicketStatusWon, .TicketStatusWON {
+    background-color: rgb(128, 225, 122);;
+}
+.TicketStatusCancelled, .TicketStatusCANCELLED {
+    background-color: rgb(128, 225, 122);;
+}
+
+.HeadlineSystem {
+    background-color: #b36d77;
+    margin-top: 10px;
+}
+
+.HeadlineBankers {
+    background-color: #7fac75;
+    margin-top: 10px;
+}
+
+.HeadlineDate {
+    background-color: rgba(255, 255, 255, 0.23);
+}
+
+.overflowHeight89 {
+    overflow: auto;
+    height: 89vh;
+}
+
+
+
+

@@ -1,14 +1,15 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 import './reminders.css';
 
-const Reminders = () => {
+class Reminders extends Component {
+  render() {
+    return (
+        <div className='container-reminders'>
 
-  return (
-    <div className='container-reminders'>
-
-    </div>
-  );
-};
+        </div>
+    );
+  }
+}
 
 export default Reminders;

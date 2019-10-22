@@ -24,9 +24,28 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <style>
+      body{
+        position: relative;
+      }
+       video{
+
+         height: 740px;
+         width: 100%;
+       }
+      #root{
+        width: 100%;
+        position: absolute;
+        top: 35px;
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <video autoPlay muted loop id="myVideo">
+      <source src=https://ak4.picdn.net/shutterstock/videos/17770834/preview/stock-footage-woman-talk-to-mobile-phone-and-use-of-digital-tablet-computer-at-night.webm type=video/webm>
+
+    </video>
     <div id="root"></div>
 
   </body>
