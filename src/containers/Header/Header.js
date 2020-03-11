@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import {Link} from "react-router-dom";
+import {Link,NavLink } from "react-router-dom";
 import logo from "./logo-ss.png"
 class Header extends React.Component {
   constructor(props) {
@@ -81,18 +81,16 @@ class Header extends React.Component {
                 </div>
 
             }
-
-
             <h1 className="gyumri-hospital-title">Interational style shop from 3d fondation</h1>
           </div>
           <div className="header-bottom-second fixed">
             <div className="route-second">
               <img className='logo' src={logo}/>
-              <Link to='/about' className="route-navigation"> About</Link>
-              <Link to='/updates' className="route-navigation">Updates</Link>
-              <Link to='/gallery' className="route-navigation">Gallery</Link>
-              <Link to='/contacts' className="route-navigation">Contacts</Link>
-              <Link to='/comments' className="route-navigation">Comments</Link>
+              <NavLink to='/about'    activeClassName="selected" className="route-navigation"> About</NavLink>
+              <NavLink to='/updates'  activeClassName="selected" className="route-navigation">Updates</NavLink>
+              <NavLink to='/gallery'  activeClassName="selected" className="route-navigation">Gallery</NavLink>
+              <NavLink to='/contacts' activeClassName="selected" className="route-navigation">Contacts</NavLink>
+              <NavLink to='/comments' activeClassName="selected" className="route-navigation">Comments</NavLink>
             </div>
             <div className="info">
               <div className="info-group">

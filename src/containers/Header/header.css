@@ -2,4 +2,8 @@
     height: 150px;
     margin-top: 56px;
 }
+.selected{
+    color: #f59d89!important;
+    font-size: 25px!important;
+}
 
