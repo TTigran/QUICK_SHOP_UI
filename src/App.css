@@ -19,14 +19,14 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 
 .section{
-  height: 500px;
-  background-color: #61dafb;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  height:auto;
 }
 @keyframes App-logo-spin {
   from {

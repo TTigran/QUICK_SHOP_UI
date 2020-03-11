@@ -1,41 +1,5 @@
-.p-info{
-  padding-left: 3px;
-  padding-top: 10px;
-  font-size: 10px;
-}
-.container-header{
-  height: 120px;
-  background-color: lightyellow;
-  border-radius: 5px;
-  border: solid 1px grey;
-}
-.count{
-  color:red;
+.logo{
+    height: 150px;
+    margin-top: 56px;
 }
 
-.full-name{
-  font-size: 14px;
-}
-
-.header-rigth{
-  width: 377px;
-  height: 94%;
-  top: 2%;
-  right: 2%;
-  position: absolute;
-
-}
-.header-rel{
-  position: relative;
-}
-i.fa.fa-edit.edit-profil{
-  color: #000;
-  font-size: 20px;
-}
-i.icon.fas.fa-check,i.fas.fa-euro-sign.icon-many,i.fas.fa-dollar-sign.icon-many{
-  color: #000;
-}
-
-.menu{
-  padding-top: 20px;
-}

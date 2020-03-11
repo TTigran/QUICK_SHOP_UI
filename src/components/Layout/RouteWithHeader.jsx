@@ -1,16 +1,15 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-
-import Menu from '../../menu/menu';
 import PredefinedPropTypes from "../../constants/Proptypes";
 import Footer from "../../containers/Footer/Footer";
+import Header from "../../containers/Header/Header";
 
 const RouteWithHeader = ({ component: Component, ...rest }) => (
   <Route
     {...rest}
     render={props => (
       <>
-        <Menu />
+        <Header/>
         <div className="section">
           <Component {...props} />
         </div>

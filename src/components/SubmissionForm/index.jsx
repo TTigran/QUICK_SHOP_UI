@@ -3,7 +3,7 @@ import {Row, Col, Form, Input, Divider, Button, Spin} from 'antd';
 import {connect} from 'react-redux';
 import {fetchProfile, postProfile, profileUpdate} from '../../redux/actions/';
 
-//import "antd/dist/antd.css";
+
 class SubmissionForm extends Component {
   static  data = [];
 
